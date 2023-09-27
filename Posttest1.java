@@ -15,10 +15,10 @@ public class Posttest1 {
 
     public static void main(String[] args) {
         Motorcycle motorcycle1 = new Motorcycle("Honda", "CBR500R", "500cc", 30000000);
-        Motorcycle motorcycle2 = new Motorcycle("Honda", "CBR500R", "500cc", 30000000);
-        Motorcycle motorcycle3 = new Motorcycle("Honda", "CBR500R", "500cc", 30000000);
-        Motorcycle motorcycle4 = new Motorcycle("Honda", "CBR500R", "500cc", 30000000);
-        Motorcycle motorcycle5 = new Motorcycle("Honda", "CBR500R", "500cc", 30000000);
+        Motorcycle motorcycle2 = new Motorcycle("Honda", "CB150R", "150", 32000000);
+        Motorcycle motorcycle3 = new Motorcycle("Yamaha", "Jupiter Z", "113cc", 12000000);
+        Motorcycle motorcycle4 = new Motorcycle("Suzuki", "Satri f150", "147cc", 19300000);
+        Motorcycle motorcycle5 = new Motorcycle("Yamaha", "R15", "155cc", 39000000);
         
         ArrayList<Motorcycle> motorcycles = new ArrayList<>();
         motorcycles.add(motorcycle1);
