@@ -7,12 +7,12 @@ Abdul Rahman (2209116045) Sistem Informasi A 2022
 Disini kita akan meggunakan kelas Motorcycle, yang dimana didalamnya terdapat beberapa properti yaitu merupakan informasi utama
 dari sebuah motor, mulai dari brand, model, jenis mesin, hingga harga motor itu sendiri.
 
-Public String Brand, yaitu properti yang berisikan informasi merek dari kelas motor.
-Public String Model, yaitu properti jenis dari kelas motor, dalam kasus ini adalah CBR500R
-Public String Mesin, yaitu properti mesin, dalam kasus ini adalah 500CC untuk CBR500R
-Public Int Price, yaitu properti yang menjelaskan harga motor CBR500R
+- Public String Brand, yaitu properti yang berisikan informasi merek dari kelas motor.
+- Public String Model, yaitu properti jenis dari kelas motor, dalam kasus ini adalah CBR500R
+- Public String Mesin, yaitu properti mesin, dalam kasus ini adalah 500CC untuk CBR500R
+- Public Int Price, yaitu properti yang menjelaskan harga motor CBR500R
 
-Adapun penggunakan string karena properti tersebut berisikan karakter huruf, text, lalu int karena pada properti price, hanya berisi
+Adapun penggunaan string karena properti tersebut berisikan karakter huruf, text, lalu int karena pada properti price, hanya berisi
 angka, lalu kode diawali dengan deklarasi "Public" agar kelas dan properti dapat diakses dari luar program, termasuk diluar _package_.
 
 ## **Implementasi Konstruktor**
@@ -20,20 +20,21 @@ angka, lalu kode diawali dengan deklarasi "Public" agar kelas dan properti dapat
 
 Kode di atas adalah konstruktor untuk kelas Motorcycle. Konstruktor ini memiliki empat parameter yang digunakan untuk menginisialisasi
 properti-properti dalam objek Motorcycle, yaitu brand, model, machine, dan price. Setiap parameter di dalam konstruktor ini menerima
-nilai dari luar saat objek Motorcycle dibuat menggunakan kata kunci _new_.
+nilai dari luar saat objek Motorcycle dibuat menggunakan kata kunci "_new_".
 
-Konstruktor this.brand adalah pernyataan yang mengatur nilai properti brand dalam objek Motorcycle menjadi nilai yang diteruskan melalui
+Konstruktor "_this.brand_" adalah pernyataan yang mengatur nilai properti brand dalam objek Motorcycle menjadi nilai yang diteruskan melalui
 parameter brand. Hal ini berlaku kepada konstruktor lainnya, model, machine, dan price.
 
-Adapun deklarasi _this__ digunakan untuk membedakan antara parameter-parameter konstruktor (misalnya, brand, model, dll.) dan properti
+Adapun deklarasi "_this_" digunakan untuk membedakan antara parameter-parameter konstruktor (misalnya, brand, model, dll.) dan properti
 properti objek. Contohnya adalah saat kita memiliki parameter brand dan properti brand dengan nama yang sama, "this" membantu Java
 memahami bahwa yang dimaksud adalah properti objek, bukan parameter konstruktor.
 
 ### *Kelas Posttest1*
-![image](https://github.com/Udinkosd/pbo-post-test-1/assets/126738691/49412485-2cf2-4193-b129-320c53775410)
+![image](https://github.com/Udinkosd/pbo-post-test-1/assets/126738691/8a1769f9-8320-4f9e-aa1a-63eb930e711a)
 
-Lalu dikelas java yang lainnya, yaitu Posttest1.java, kita menggunakan _package_ untuk memanggil kelas lainnya, dalam kasus ini adalah 
-kelas Motorcycle.
+
+Lalu dikelas java yang lainnya, yaitu Posttest1.java, terdapat "_package_", yaitu menjelaskan bahwa Posttest1.java berada didalam paket com.mycompany, dan selanjutnya adalah
+"_import_" yaitu agar java melakukan import pustaka ArrayList, agar dapat digunakan di dalam kelas Posttest1.java.
 
 ![image](https://github.com/Udinkosd/pbo-post-test-1/assets/126738691/b59efb10-e8c0-4472-ae09-47eeb93fe2c3)
 
