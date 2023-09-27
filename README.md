@@ -1,6 +1,4 @@
-NAMA ABDUL RAHMAN
-NIM 2209116045
-KELAS A22
+Abdul Rahman (2209116045) Sistem Informasi A 2022
 
 ### *Kelas Motorcycle*
 #### *Implementasi Properti dan Kelas*
@@ -50,3 +48,4 @@ mengggunakan _add_.
 ![image](https://github.com/Udinkosd/pbo-post-test-1/assets/126738691/0ba5ebfe-20cc-4a29-b2d0-2bcfb854b4ec)
 Deklarasi _for_ digunakan untuk melakukan perulangan pada setiap elemen ArrayList yang telah kita buat sebelumnya.
 
+#### *Output*
