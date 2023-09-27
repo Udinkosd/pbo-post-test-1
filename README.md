@@ -15,7 +15,7 @@ dari sebuah motor, mulai dari brand, model, jenis mesin, hingga harga motor itu 
 Adapun penggunaan string karena properti tersebut berisikan karakter huruf, text, lalu int karena pada properti price, hanya berisi
 angka, lalu kode diawali dengan deklarasi "Public" agar kelas dan properti dapat diakses dari luar program, termasuk diluar _package_.
 
-## **Implementasi Konstruktor**
+#### *Implementasi Konstruktor*
 ![image](https://github.com/Udinkosd/pbo-post-test-1/assets/126738691/a85ed58a-1041-48a7-aa1e-8a32d158ae2b)
 
 Kode di atas adalah konstruktor untuk kelas Motorcycle. Konstruktor ini memiliki empat parameter yang digunakan untuk menginisialisasi
@@ -30,12 +30,13 @@ properti objek. Contohnya adalah saat kita memiliki parameter brand dan properti
 memahami bahwa yang dimaksud adalah properti objek, bukan parameter konstruktor.
 
 ### *Kelas Posttest1*
+#### *Implementasi Import*
 ![image](https://github.com/Udinkosd/pbo-post-test-1/assets/126738691/8a1769f9-8320-4f9e-aa1a-63eb930e711a)
-
 
 Lalu dikelas java yang lainnya, yaitu Posttest1.java, terdapat "_package_", yaitu menjelaskan bahwa Posttest1.java berada didalam paket com.mycompany, dan selanjutnya adalah
 "_import_" yaitu agar java melakukan import pustaka ArrayList, agar dapat digunakan di dalam kelas Posttest1.java.
 
+#### *Implementasi Metode*
 ![image](https://github.com/Udinkosd/pbo-post-test-1/assets/126738691/b59efb10-e8c0-4472-ae09-47eeb93fe2c3)
 
 "Public static void main(String[] args)" adalah metode main, yang merupakan titik masuk utama untuk dari program kita. Semua kode di
@@ -45,12 +46,14 @@ dalam kelas ini, akan dieksekusi dari sini.
 motorcycle1 dari kelas Motorcycle dengan menggunakan konstruktor. Objek ini berisi merek "Honda," model "CBR500R," mesin "500cc," dan
 harga 30.000.000.
 
+#### *Implementasi ArrayList*
 ![image](https://github.com/Udinkosd/pbo-post-test-1/assets/126738691/98ca2729-82f3-4214-955e-677aa7f1785c)
 
 ArrayList adalah deklarasi dan inisialisasi dari motorcycles. ArrayList ini digunakan untuk menyimpan objek-objek dari kelas Motorcycle.
 Selanjutnya, setelah kita melakukan inisialisasi dengan ArrayList, maka kita dapat menambah objek didalam Array tersebut yaitu dengan
 mengggunakan _add_. 
 
+#### *Implementasi Perulangan*
 ![image](https://github.com/Udinkosd/pbo-post-test-1/assets/126738691/0ba5ebfe-20cc-4a29-b2d0-2bcfb854b4ec)
 
 Deklarasi _for_ digunakan untuk melakukan perulangan pada setiap elemen ArrayList yang telah kita buat sebelumnya.
